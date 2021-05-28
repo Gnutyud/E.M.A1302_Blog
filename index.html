@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TungND24 Blog</title>
+</head>
+
+<body>
+    <div class="blog-container">
+        <!-- navigation bar -->
+        <div class="nav-menu" id="menu">
+            <div class="menu-soical">
+                <a href="#" class="bar-item">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="bar-item">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="bar-item">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="bar-item">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="bar-item">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="bar-item">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+            </div>
+            <a href="#" class="menu-search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <!-- content -->
+        <div class="blog-content">
+            <!-- header -->
+            <header>
+                <b>TungND24 BLOGLIFE</b>
+                <h6>Welcome to the blog of <span>TungND24</span></h6>
+            </header>
+            <!-- Image banner -->
+            <div class="banner">
+                <img src="images/jane.jpg" alt="banner" />
+                <div class="banner-text">
+                    <p>TungND24's</p>
+                    <b>FASHION BLOG</b><br />
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+            <!-- Blog Content -->
+            <div class="content">
+                <!-- main content -->
+                <div class="main-content">
+                    <div class="content-item">
+                        <h3>TITLE HEADING</h3>
+                        <p class="desc-title">
+                            Title description, <span>May 26, 2021</span>
+                        </p>
+                        <img src="images/girl_hat.jpg" alt="girl_hat" />
+
+                        <p class="article">
+                            <span>More Hats!</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, sint. Nam laborum omnis animi iste odio adipisci molestiae alias unde debitis! Officiis odit sed optio quaerat, aut dicta alias? Aperiam.
+                        </p>
+                        <div class="button">
+                            <button class="like-btn" onclick="likeBtn(this)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</button>
+                            <button class="reply-btn" onclick="replyToggle(this)">Replies <span>2</span></button>
+                        </div>
+                        <div class="comment-section">
+                            <div class="comments">
+                                <img src="images/avatar_VyOanh.jpg" alt="user1" class="avatar" />
+                                <div class="user-info">
+                                    <p class="user-name">
+                                        Vy Oanh <span>May 25, 2021, 6:45 AM</span>
+                                    </p>
+                                    <p class="user-comment">Bóc phốt tao đi</p>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <img src="images/avatar_ph.jpg" alt="user2" class="avatar" />
+                                <div class="user-info">
+                                    <p class="user-name">
+                                        CEO Phương Hằng <span>May 25, 2021, 9:32 PM</span>
+                                    </p>
+                                    <p class="user-comment">Don't forget that time on Saturday May 29, 2021 at 6:30 PM </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <h3>TITLE HEADING</h3>
+                        <p class="desc-title">
+                            Title description, <span>May 27, 2021</span>
+                        </p>
+                        <img src="images/man_hat.jpg" alt="man_hat" />
+
+                        <p class="article">
+                            <span>More Hats!</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, sint. Nam laborum omnis animi iste odio adipisci molestiae alias unde debitis! Officiis odit sed optio quaerat, aut dicta alias? Aperiam.
+                        </p>
+                        <div class="button">
+                            <button class="like-btn" onclick="likeBtn(this)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</button>
+                            <button class="reply-btn" onclick="replyToggle(this)">Replies <span>1</span></button>
+                        </div>
+                        <div class="comment-section">
+                            <div class="comments">
+                                <img src="images/girl_train.jpg" alt="user3" class="avatar" />
+                                <div class="user-info">
+                                    <p class="user-name">
+                                        Julie <span>May 27, 2021, 6:32 PM</span>
+                                    </p>
+                                    <p class="user-comment">From Hanoi with love :v</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <h3>TITLE HEADING</h3>
+                        <p class="desc-title">
+                            Title description, <span>May 28, 2021</span>
+                        </p>
+                        <img src="images/team4.jpg" alt="team4" />
+
+                        <p class="article">
+                            <span>More Money!</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, sint. Nam laborum omnis animi iste odio adipisci molestiae alias unde debitis! Officiis odit sed optio quaerat, aut dicta alias? Aperiam.
+                        </p>
+                        <div class="button">
+                            <button class="like-btn" onclick="likeBtn(this)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</button>
+                            <button class="reply-btn" onclick="replyToggle(this)">Replies <span>3</span></button>
+                        </div>
+                        <div class="comment-section">
+                            <div class="comments">
+                                <img src="images/avatar_smoke.jpg" alt="user4" class="avatar" />
+                                <div class="user-info">
+                                    <p class="user-name">
+                                        Gigi <span>May 26, 2021, 8:32 AM</span>
+                                    </p>
+                                    <p class="user-comment">Love u 3000 bro</p>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <img src="images/avatar_girl2.jpg" alt="user5" class="avatar" />
+                                <div class="user-info">
+                                    <p class="user-name">
+                                        Justin Bieber <span>May 25, 2021, 10:32 PM</span>
+                                    </p>
+                                    <p class="user-comment">Contact me to take my energy</p>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <img src="images/team4.jpg" alt="user6" class="avatar" />
+                                <div class="user-info">
+                                    <p class="user-name">
+                                        AJ Park <span>May 25, 2021, 11:32 PM</span>
+                                    </p>
+                                    <p class="user-comment">Make Vietnam Great Agian!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Aside content -->
+                <div class="aside-content">
+                    <!-- About section -->
+                    <div class="about aside-inner">
+                        <img src="images/avatar_girl2.jpg" alt="about" class="about-img" />
+                        <div class="about-text">
+                            <h4>My Name</h4>
+                            <p>
+                                Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Popular section -->
+                    <div class="popular aside-inner section">
+                        <h4>Popular Posts</h4>
+                        <div class="top-popular">
+                            <a href="#" class="post-item">
+                                <img src="images/avatar_smoke.jpg" alt="user1" class="avatar" />
+                                <div class="post-info">
+                                    <p class="post-name">
+                                        George
+                                    </p>
+                                    <p class="post-desc">Great blog post! Following</p>
+                                </div>
+                            </a>
+                            <a href="#" class="post-item">
+                                <img src="images/avatar_smoke.jpg" alt="user1" class="avatar" />
+                                <div class="post-info">
+                                    <p class="post-name">
+                                        George
+                                    </p>
+                                    <p class="post-desc">Great blog post! Following</p>
+                                </div>
+                            </a>
+                            <a href="#" class="post-item">
+                                <img src="images/avatar_smoke.jpg" alt="user1" class="avatar" />
+                                <div class="post-info">
+                                    <p class="post-name">
+                                        George
+                                    </p>
+                                    <p class="post-desc">Great blog post! Following</p>
+                                </div>
+                            </a>
+                            <a href="#" class="post-item">
+                                <img src="images/avatar_smoke.jpg" alt="user1" class="avatar" />
+                                <div class="post-info">
+                                    <p class="post-name">
+                                        George
+                                    </p>
+                                    <p class="post-desc">Great blog post! Following</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Advertise section -->
+                    <div class="aside-inner section">
+                        <h4>Advertise</h4>
+                        <div class="banner-advertise">
+                            <img src="images/boy.jpg" alt="ad">
+                        </div>
+                    </div>
+                    <!-- Tags section -->
+                    <div class="aside-inner section tag">
+                        <h4>Tags</h4>
+                        <div class="tag-item">
+                            <a href="#">Fashion</a>
+                            <a href="#">New York</a>
+                            <a href="#">Lon Don</a>
+                            <a href="#">Viet Nam</a>
+                            <a href="#">Viet Nam</a>
+                            <a href="#">Viet Nam</a>
+                            <a href="#">Viet Nam</a>
+                            <a href="#">FPT Academy</a>
+                            <a href="#">FPT Academy</a>
+                            <a href="#">FPT Academy</a>
+                            <a href="#">FPT Academy</a>
+                            <a href="#">FPT Academy</a>
+                        </div>
+                    </div>
+                    <!-- Inspiration -->
+                    <div class="aside-inner section inspiration">
+                        <h4>Inspiration</h4>
+                        <div class="inspiration-item">
+                            <img src="images/team1.jpg" alt="team1">
+                            <img src="images/team1.jpg" alt="team1">
+                            <img src="images/team1.jpg" alt="team1">
+                            <img src="images/team1.jpg" alt="team1">
+                        </div>
+                    </div>
+                    <!-- Follow me -->
+                    <div class="aside-inner section follow-me">
+                        <h4>Follow Me</h4>
+                        <div class="follow-item">
+                            <a href="#">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aside-inner section subscribe">
+                        <h4>Subscribe</h4>
+                        <form class="subscribe-inner" action="#" method="POST">
+                            <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                            <input type="email" name="email" id="email" placeholder="Enter your email...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer>
+                <a href="#menu"><i class="fa fa-arrow-up" aria-hidden="true"></i>To the top</a>
+                <p>Coding by <span>TungND24</span> from FA</p>
+            </footer>
+        </div>
+    </div>
+    </div>
+    <script>
+        function likeBtn(x) {
+            if (x.firstChild.classList.contains("fa-thumbs-up")) {
+                console.log("up")
+                x.firstChild.classList.remove("fa-thumbs-up")
+                x.firstChild.classList.add("fa-check")
+            } else {
+                x.firstChild.classList.remove("fa-check")
+                x.firstChild.classList.add("fa-thumbs-up")
+            }
+        }
+
+        function replyToggle(x) {
+            let comment = x.parentNode.nextElementSibling;
+            comment.classList.toggle("hide")
+            console.log(comment)
+
+        }
+    </script>
+</body>
+
+</html>
